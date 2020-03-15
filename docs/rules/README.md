@@ -131,6 +131,7 @@ Enforce all the rules in this category, as well as all higher priority rules, wi
 | [vue/component-tags-order](./component-tags-order.md) | enforce order of component top-level elements |  |
 | [vue/no-v-html](./no-v-html.md) | disallow use of v-html to prevent XSS attack |  |
 | [vue/order-in-components](./order-in-components.md) | enforce order of properties in components | :wrench: |
+| [vue/template-no-target-blank](./template-no-target-blank.md) | disallow using `target="_blank"` attribute without `rel="noreferrer noopener"` |  |
 | [vue/this-in-template](./this-in-template.md) | disallow usage of `this` in template |  |
 
 ## Priority A: Essential (Error Prevention) <badge text="for Vue.js 2.x" vertical="middle" type="warn">for Vue.js 2.x</badge>
@@ -234,6 +235,7 @@ Enforce all the rules in this category, as well as all higher priority rules, wi
 | [vue/component-tags-order](./component-tags-order.md) | enforce order of component top-level elements |  |
 | [vue/no-v-html](./no-v-html.md) | disallow use of v-html to prevent XSS attack |  |
 | [vue/order-in-components](./order-in-components.md) | enforce order of properties in components | :wrench: |
+| [vue/template-no-target-blank](./template-no-target-blank.md) | disallow using `target="_blank"` attribute without `rel="noreferrer noopener"` |  |
 | [vue/this-in-template](./this-in-template.md) | disallow usage of `this` in template |  |
 
 ## Uncategorized
