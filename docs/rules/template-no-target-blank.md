@@ -8,6 +8,7 @@ description: disallow using `target="_blank"` attribute without `rel="noreferrer
 > disallow using `target="_blank"` attribute without `rel="noreferrer noopener"`
 
 - :gear: This rule is included in `"plugin:vue/vue3-recommended"` and `"plugin:vue/recommended"`.
+- :wrench: The `--fix` option on the [command line](https://eslint.org/docs/user-guide/command-line-interface#fixing-problems) can automatically fix some of the problems reported by this rule.
 
 ## :book: Rule Details
 
@@ -15,7 +16,7 @@ This rule aims to disallow using `target="_blank"` attribute without `rel="noref
 
 Examples of **incorrect** code for this rule:
 
-<eslint-code-block :rules="{'vue/template-no-target-blank': ['error']}">
+<eslint-code-block fix :rules="{'vue/template-no-target-blank': ['error']}">
 
 ```vue
 <template>
@@ -66,7 +67,7 @@ export default {
   
 #### Example: `allowReferrer: true`
 
-<eslint-code-block :rules="{'vue/template-no-target-blank': ['error', { allowReferrer: true }]}">
+<eslint-code-block fix :rules="{'vue/template-no-target-blank': ['error', { allowReferrer: true }]}">
 
 ```vue
 <template>
@@ -87,7 +88,7 @@ export default {
 
 #### Example: `enforceDynamicLinks: false`
 
-<eslint-code-block :rules="{'vue/template-no-target-blank': ['error', { enforceDynamicLinks: false }]}">
+<eslint-code-block fix :rules="{'vue/template-no-target-blank': ['error', { enforceDynamicLinks: false }]}">
 
 ```vue
 <template>
